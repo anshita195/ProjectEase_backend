@@ -7,7 +7,7 @@ import django.utils.timezone
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('ProjectEase_app', '0004_alter_card_created_at_alter_card_is_resolved'),
+        ('ProjectEase_app', '0004_alter_card_created-at_alter_card_is_resolved'),
     ]
 
     operations = [
