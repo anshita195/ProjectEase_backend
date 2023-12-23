@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'channels',
     'corsheaders',
-    'users.apps.UsersConfig',
+    # 'users.apps.UsersConfig',
 ]
 
 REST_FRAMEWORK = {
