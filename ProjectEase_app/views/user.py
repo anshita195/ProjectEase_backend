@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from ProjectEase_app.serializers.user import *
-from ProjectEase_app import *
+from ProjectEase_app.serializers import *
+from ProjectEase_app.models import *
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.authentication import TokenAuthentication
 

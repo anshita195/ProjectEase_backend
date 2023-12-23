@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ProjectEase_app.models.project_role import *
+from ProjectEase_app.models import *
 
 class Project_roleSerializer(serializers.ModelSerializer):
     class Meta:

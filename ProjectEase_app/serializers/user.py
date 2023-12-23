@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ProjectEase_app.models.user import *
+from ProjectEase_app.models import *
 from .project import ProjectOnlySerializer
 
 

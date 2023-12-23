@@ -2,13 +2,10 @@ from rest_framework import viewsets
 from ProjectEase_app.serializers import *
 from ProjectEase_app.models import *
 from rest_framework.permissions import IsAuthenticated
-
-
 # Create your views here.
 
 
-class Project_roleViewSet(viewsets.ModelViewSet):
-    queryset = Project_role.objects.all()
-    serializer_class = Project_roleSerializer
+class CommentViewSet(viewsets.ModelViewSet):
+    queryset = Comment.objects.all()
+    serializer_class = CommentSerializer
     permission_classes = [IsAuthenticated]
-   

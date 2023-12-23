@@ -8,6 +8,7 @@ router.register('users', UserViewSet)
 router.register('lists', ListViewSet)
 router.register('cards', CardViewSet)
 router.register('projects', ProjectViewSet)
+router.register('comments', CommentViewSet)
 router.register('project_roles', Project_roleViewSet)
 
 

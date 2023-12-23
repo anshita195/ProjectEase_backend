@@ -1,6 +1,6 @@
 from rest_framework import viewsets
 from rest_framework.views import APIView
-from ProjectEase_app.serializers.user import *
+from ProjectEase_app.serializers import *
 from ProjectEase_app.models import *
 from django.views.decorators.csrf import csrf_exempt
 from django.shortcuts import redirect

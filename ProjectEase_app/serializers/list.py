@@ -1,6 +1,5 @@
 from rest_framework import serializers
-from ProjectEase_app.models import *
-from ProjectEase_app.models.list import List
+from ProjectEase_app.models import List
 from .card import CardSerializer
 
 class ListSerializer(serializers.ModelSerializer):

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ProjectEase_app.models.project import *
+from ProjectEase_app.models import *
 from .list import ListSerializer
 
 

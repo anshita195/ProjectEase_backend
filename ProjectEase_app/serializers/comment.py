@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from ProjectEase_app.models.comment import *
+from ProjectEase_app.models import *
 
 class CommentSerializer(serializers.ModelSerializer):
     

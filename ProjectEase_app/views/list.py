@@ -1,5 +1,5 @@
 from rest_framework import viewsets
-from ProjectEase_app.serializers.list import *
+from ProjectEase_app.serializers import *
 from ProjectEase_app.models.list import List
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.permissions import IsAuthenticated
