@@ -3,6 +3,7 @@ from .usermodel import User
 class Project(models.Model):
     project_id = models.AutoField(primary_key=True)
     creator = models.ForeignKey(User, on_delete=models.CASCADE)
+  # creator = models.ForeignKey(User, on_delete=models.CASCADE, to_field='first_name')
     date_of_creation = models.DateField()
     name = models.CharField(max_length=255)
     wiki = models.CharField(max_length=255)
